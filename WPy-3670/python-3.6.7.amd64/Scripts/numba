@@ -1,0 +1,8 @@
+#!C:\Winp\bd36\buQt5\winp64-3.6.x.0\python-3.6.7.amd64\python.exe
+# -*- coding: UTF-8 -*-
+from __future__ import print_function, division, absolute_import
+
+from numba.numba_entry import main
+
+if __name__ == "__main__":
+    main()

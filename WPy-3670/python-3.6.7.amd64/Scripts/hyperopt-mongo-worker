@@ -1,0 +1,6 @@
+#!D:\WPy-3670\python-3.6.7.amd64\python.exe
+import sys
+import hyperopt.mongoexp
+import logging
+logging.basicConfig(stream=sys.stderr, level=logging.INFO)
+sys.exit(hyperopt.mongoexp.main_worker())
